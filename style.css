@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #D6D1CD;
+}
+header h1{
+    padding: 0 20px;
+}
+header p{
+    position: absolute;
+    top: 60px;
+    font-size: 32px;
+    display: inline-block;
+    margin: center;
+    color: #730044;
+}
+.container{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+.texto{
+    position: absolute;
+    width: 42%;
+    height: 60%;
+    left: 12%;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    background-color: #D6D1CD;
+
+}
+.texto::placeholder{
+    color:#C60F7B;
+}
+.texto:focus,
+.texto:active{
+    border: none;
+    outline: none;
+}
+
+.terminos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 80%;
+    left: 12%;
+    top: 80%;
+}
+.terminos p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: black;
+    opacity: 0.8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1% 0;
+    position: absolute;
+    width: 80%;
+    left: 12%;
+    top:82%
+}
+.button a {
+    display: inline;
+    margin: 0 15px 20px 0;
+}
+
+.btn-1{
+    align-items: center;
+    padding: 15px 60px;
+    gap: 8px;
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 24px;
+    margin: 150px 130px;
+    background-color: #C60F7B;
+    color: #E5ECE9;
+    text-decoration: none;
+    text-align: center;
+}
+.btn-1:hover{
+    background-color: transparent;
+    border: 2px solid #C60F7B;
+    color: #C60F7B;
+}
+
+.btn-2{
+    display: inline-block;
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 24px;
+    margin: 150px 130px;
+    padding: 15px 60px;
+    background-color: transparent;
+    border: 2px solid #C60F7B;
+    color: #C60F7B;
+    text-decoration: none;
+    text-align: center;
+}
+.btn-2:hover{
+    background-color: #C60F7B;
+    color: #E5ECE9;
+}
+
+.btn-3{
+    display: inline-block;
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 24px;
+    margin: 150px 130px;
+    padding: 15px 60px;
+    background-color: transparent;
+    border: 2px solid #C60F7B;
+    color: #C60F7B;
+    text-decoration: none;
+    text-align: center;
+}
+.btn-3:hover{
+    background-color: #C60F7B;
+    color: #E5ECE9;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 30%;
+    height: 90%;
+    left: 60%;
+    top: 5%;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px #CCCCCC;
+    border-radius: 32px;
+}
+
+.mensajeEncriptado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    gap: 16px;
+    position: absolute;
+    width: 100%;
+    top: 65%;
+    text-align: center;
+}
+
+.mensajeEncriptado h2{
+    width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343a40;
+}
+
+.mensajeEncriptado p{
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #969A97;
+}
+
+.info img {
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    top: 15%;
+}
+
+footer {
+    text-align: center;
+    background: url(img/bg.jpg);
+    padding: 40px;
+}
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
+.cv{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
